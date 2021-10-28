@@ -1,16 +1,18 @@
-# OME: Open Media Editor
+![olio](/images/olio_log.png "logo")
 
-OME面向直播、点播、短视频编辑、实时音视频、音视频特效等音视频及通讯领域相关产品，提供开放的一站式的前后端整合开发框架。
+# OMS: Open Media Streaming
 
-开发人员可以专注于音视频前置和后置处理、以及特定场景的网络传输和编解码优化
+OMS面向直播、点播、短视频编辑、实时音视频、音视频特效等音视频及通讯领域相关产品，提供开放的一站式前后端整合开发框架。
+
+使用此框架，开发人员可以专注于音视频前置和后置处理，灵活的组织场景，定制新玩法。并针对特定场景的网络传输和编解码进行优化。
+
+OMS又称为Olio(什锦菜) Media Streaming，基于时间线的抽象设计，实现了相关产品中绝大部分场景的功能和应用。您可以在此基础上进行二次封装，以实现直播、点播、实时音视频，播放器等业务化SDK接口。
 
 她开源而且免费，她的口号是-"SHARE MORE, WASTE LESS!"
 
-> OME又称为Olio(什锦菜) Media Editor，基于时间线的抽象设计，实现了相关产品中绝大部分场景的功能和应用。您可以在此基础上进行二次封装，以实现直播、点播、实时音视频业务化SDK接口。
-
 ## 服务对象
 
-QME主要面向中小企业和初创团队，QME开发团队可以在以下方面提供技术支持和服务
+QMS主要面向中小企业和初创团队，QMS开发团队可以在以下方面提供技术支持和服务
 
 - 视音频特效定制化开发，以及第三方相关SDK接入
 - 针对特殊场景的编解码优化
@@ -18,11 +20,10 @@ QME主要面向中小企业和初创团队，QME开发团队可以在以下方�
 - 视频云主机前后端部署和接入
 
 ## 相关概念
-------------
 
 ### 时间线相关
 
-![类图](https://github.com/davidwongiiss1984/ome-docs/images/uml_class_assets.png "类图")
+![类图](/images/uml_class_assets.png "类图")
 
 |概念 | 含义    |
 |-----|---------| 
@@ -46,7 +47,7 @@ QME主要面向中小企业和初创团队，QME开发团队可以在以下方�
 
 ### 运行时相关
 
-![序列图](https://github.com/davidwongiiss1984/ome-docs/images/uml_seq_context.png "序列图")
+![序列图](/images/uml_seq_context.png "序列图")
 
 |概念 | 含义    |
 |-----|---------| 
@@ -57,15 +58,15 @@ QME主要面向中小企业和初创团队，QME开发团队可以在以下方�
 
 ## 使用文档
 
-[短视频编辑][1]
+[短视频编辑][AVEDITING]
 
-[直播][2]
+[直播][LIVESTREAMING]
 
-[点播][3]
+[点播][VOD]
 
-[实时音视频][4]
+[实时音视频][RTC]
 
-[播放器][5]
+[播放器][PLAYER]
 
 ## 服务端文档
 
@@ -84,9 +85,11 @@ QME主要面向中小企业和初创团队，QME开发团队可以在以下方�
 ## 技术支持
 
 
-[1]: (https://github.com/davidwongiiss1984/ome-docs/AVEDITING.md)
-[2]: (https://github.com/davidwongiiss1984/ome-docs/LIVESTREAMING.md)
-[3]: (https://github.com/davidwongiiss1984/ome-docs/VOD.md)
-[4]: (https://github.com/davidwongiiss1984/ome-docs/RTC.md)
-[5]: (https://github.com/davidwongiiss1984/ome-docs/PLAYE.md)
+[AVEDITING]: (AVEDITING.md)
+[LIVESTREAMING]: (LIVESTREAMING.md)
+[VOD]: (VOD.md)
+[RTC]: (RTC.md)
+[PLAYER]: (PLAYER.md)
+[UML_CLASS_ASSETS]: (/images/uml_class_assets.png)
+[UML_SEQ_CONTEXT]: (/images/uml_seq_context.png)
 
