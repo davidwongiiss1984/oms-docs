@@ -58,15 +58,15 @@ QMS主要面向中小企业和初创团队，QMS开发团队可以在以下方�
 
 ## 使用文档
 
-[短视频编辑][AVEDITING]
+[短视频编辑](AVEDITING.md)
 
-[直播][LIVESTREAMING]
+[直播](LIVESTREAMING.md)
 
-[点播][VOD]
+[点播](VOD.md)
 
-[实时音视频][RTC]
+[实时音视频](RTC.md)
 
-[播放器][PLAYER]
+[播放器](PLAYER.md)
 
 ## 服务端文档
 
@@ -85,11 +85,4 @@ QMS主要面向中小企业和初创团队，QMS开发团队可以在以下方�
 ## 技术支持
 
 
-[AVEDITING]: (AVEDITING.md)
-[LIVESTREAMING]: (LIVESTREAMING.md)
-[VOD]: (VOD.md)
-[RTC]: (RTC.md)
-[PLAYER]: (PLAYER.md)
-[UML_CLASS_ASSETS]: (/images/uml_class_assets.png)
-[UML_SEQ_CONTEXT]: (/images/uml_seq_context.png)
 
